@@ -1,0 +1,19 @@
+{
+  "name": "study/belajar-php-composer-library",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Study\\BelajarPhpComposerLibrary\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Gilang Aditya",
+      "email": "langzaditya21@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
